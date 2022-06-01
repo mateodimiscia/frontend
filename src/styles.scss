@@ -63,8 +63,11 @@ button {
 
 //imagen fondo
 #home {
+  position: fixed;
   clip-path: url(#cache);
+
 }
+
 
 #red {
   fill: none;
