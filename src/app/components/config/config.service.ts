@@ -21,4 +21,5 @@ respuesta="";
   registrarUsuario(usuario:Usuario):Observable<Object>{
     return this.http.post(`${this.path}`+"registrarUsuario",usuario);
   }
+  
 }

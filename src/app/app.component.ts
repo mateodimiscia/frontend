@@ -11,7 +11,8 @@ export class AppComponent {
   title = 'loginup_frontend';
   respuesta = '';
 
-  prueba2(){
+ prueba2(){
 this.confis.prueba().subscribe(all =>{console.log(all)})
+
   }
 }

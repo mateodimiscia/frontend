@@ -11,6 +11,7 @@ import { Router } from '@angular/router';
 })
 export class RegistroComponent implements OnInit {
 
+
   usuario : Usuario = new Usuario();
   constructor(private configService:ConfigService, private router:Router) { }
 
@@ -28,4 +29,17 @@ export class RegistroComponent implements OnInit {
   onSubmit(){
     this.guardarUsuario();
   }
+
+  validarDatos(){
+    var variable = new String(null);
+    if (variable == null) {
+      alert("es null");
+    } else {
+      console.log("No es null");
+    }
+  }
 }
+
+
+
+
